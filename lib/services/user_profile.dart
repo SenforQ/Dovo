@@ -44,6 +44,7 @@ class UserProfileManager {
   static const _kGender = 'profile.gender';
   static const _kSignature = 'profile.signature';
   static const _kAvatarFileName = 'profile.avatarFileName';
+  static const _kAgreementAccepted = 'profile.agreementAccepted';
 
   Future<void> load() async {
     final prefs = await SharedPreferences.getInstance();
@@ -93,6 +94,16 @@ class UserProfileManager {
   String _extOf(String path) {
     final i = path.lastIndexOf('.');
     return i >= 0 ? path.substring(i) : '';
+  }
+
+  Future<bool> hasAgreementAccepted() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getBool(_kAgreementAccepted) ?? false;
+  }
+
+  Future<void> setAgreementAccepted(bool accepted) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_kAgreementAccepted, accepted);
   }
 }
 

@@ -4,6 +4,7 @@ import 'pages/home_page.dart';
 import 'pages/community_page.dart';
 import 'pages/planning_page.dart';
 import 'pages/mine_page.dart';
+import 'pages/welcome_page.dart';
 import 'widgets/custom_tab_bar.dart';
 
 Future<void> main() async {
@@ -12,8 +13,32 @@ Future<void> main() async {
   runApp(const DovoApp());
 }
 
-class DovoApp extends StatelessWidget {
+class DovoApp extends StatefulWidget {
   const DovoApp({super.key});
+
+  @override
+  State<DovoApp> createState() => _DovoAppState();
+}
+
+class _DovoAppState extends State<DovoApp> {
+  bool _hasAgreed = false;
+  bool _isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkAgreementStatus();
+  }
+
+  Future<void> _checkAgreementStatus() async {
+    final hasAgreed = await UserProfileManager().hasAgreementAccepted();
+    if (mounted) {
+      setState(() {
+        _hasAgreed = hasAgreed;
+        _isLoading = false;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +64,15 @@ class DovoApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: MainTabPage(key: MainTabPage.tabKey),
+      home: _isLoading
+          ? const Scaffold(
+              body: Center(
+                child: CircularProgressIndicator(),
+              ),
+            )
+          : _hasAgreed
+              ? MainTabPage(key: MainTabPage.tabKey)
+              : const WelcomePage(),
     );
   }
 }
