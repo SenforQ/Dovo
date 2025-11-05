@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dependencyDuringMediator</key>
+	<string>slashDuringFramework</string>
+	<key>gradientStyleMode</key>
+	<string>labelCommandStyle</string>
+	<key>indicatorIncludeKind</key>
+	<string>flexObserverInteraction</string>
+	<key>mutableRequestBottom</key>
+	<string>routeOfForm</string>
+	<key>plateInterpreterDelay</key>
+	<string>listenerJobScale</string>
+	<key>pointThroughVariable</key>
+	<string>cartesianCapacitiesPosition</string>
+	<key>riverpodWorkScale</key>
+	<string>localizationMediatorForce</string>
+</dict>
+</plist>

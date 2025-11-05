@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveBrushValidation</key>
+	<string>screenSystemMargin</string>
+	<key>advancedBulletSize</key>
+	<string>basicCoordinatorColor</string>
+	<key>futureStructureMargin</key>
+	<string>cupertinoInteractorDuration</string>
+	<key>protectedAssetLocation</key>
+	<string>opaqueProgressbarBrightness</string>
+	<key>remainderPatternBottom</key>
+	<string>labelVersusContext</string>
+	<key>routeInsideObserver</key>
+	<string>dynamicMultiplicationBottom</string>
+	<key>transitionEnvironmentPadding</key>
+	<string>builderOfContext</string>
+	<key>utilStyleSpeed</key>
+	<string>accessibleTransitionVelocity</string>
+</dict>
+</plist>

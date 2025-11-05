@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>coordinatorLevelType</key>
+	<string>profileByEnvironment</string>
+	<key>featureIncludeDecorator</key>
+	<string>adaptiveAlertStatus</string>
+	<key>fixedChannelOpacity</key>
+	<string>heapVisitorPressure</string>
+	<key>metadataAtProxy</key>
+	<string>effectOutsideFacade</string>
+	<key>previewParamRotation</key>
+	<string>alertFormBrightness</string>
+	<key>sequentialConvolutionHue</key>
+	<string>tabbarPrototypeSize</string>
+	<key>similarRiverpodMargin</key>
+	<string>sophisticatedSymbolBrightness</string>
+</dict>
+</plist>

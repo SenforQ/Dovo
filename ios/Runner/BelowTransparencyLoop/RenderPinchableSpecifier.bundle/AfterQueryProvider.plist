@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assetPlatformPressure</key>
+	<string>transitionMethodHue</string>
+	<key>capacitiesNumberTail</key>
+	<string>standaloneCanvasBorder</string>
+	<key>mediaqueryContextShape</key>
+	<string>curvePhaseRotation</string>
+	<key>oldGridRate</key>
+	<string>cacheAgainstLayer</string>
+	<key>pivotalNavigatorDirection</key>
+	<string>routeFrameworkCount</string>
+	<key>statefulSegmentSaturation</key>
+	<string>durationMethodMomentum</string>
+</dict>
+</plist>

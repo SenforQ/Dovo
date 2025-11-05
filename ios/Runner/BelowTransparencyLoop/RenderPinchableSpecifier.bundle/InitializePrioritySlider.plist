@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationByFunction</key>
+	<string>dynamicButtonAppearance</string>
+	<key>displayableAssetCount</key>
+	<string>chapterViaParameter</string>
+	<key>intensityAlongVariable</key>
+	<string>advancedLogIndex</string>
+	<key>modelInState</key>
+	<string>composableSizeFlags</string>
+	<key>modulusOrTemple</key>
+	<string>curveParameterInterval</string>
+	<key>providerChainVisible</key>
+	<string>expandedOrStage</string>
+</dict>
+</plist>
